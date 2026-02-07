@@ -26,6 +26,8 @@ exports.signupUser = async (req, res) => {
         status: false,
         message: "User already exists",
       });
+      console.log('rituraj');
+      
     }
   const profilePic = req.file ? req.file.path: null
 
